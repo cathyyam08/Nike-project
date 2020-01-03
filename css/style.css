@@ -1,0 +1,644 @@
+/* RESET */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* default font */
+}
+
+body * {
+  font-family: inherit;
+}
+
+p {
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.toprectangle {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+}
+
+.toprectangle .flex p {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.NewMarkdowns {
+  margin-left: 40%;
+  margin-right: 20px;
+}
+
+.secondrectangle {
+  border: 1px solid lightgrey;
+  background-color: white;
+  height: 35px;
+  width: 90px;
+  border-left: none;
+}
+
+.side-container span {
+  cursor: pointer;
+}
+
+.container .flex p:hover {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondrectangle p {
+  font-size: 10px;
+  color: grey;
+}
+
+.secondrectangle span {
+  color: grey;
+  font-size: 14px;
+}
+
+.thirdrectangle {
+  border: 1px solid lightgrey;
+  height: 35px;
+  background-color: white;
+  border-left: none;
+}
+
+.thirdrectangle p {
+  font-size: 10px;
+  color: grey;
+  margin-right: 20px;
+  margin-top: 10px;
+  }
+
+.thirdrectangle span {
+  color: grey;
+  font-size: 14px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.topmenu {
+  border: 1px solid lightgrey;
+  height: 60px;
+  border-left: none;
+}
+
+.topmenu .side-container {
+  width: 200px;
+}
+
+.topmenu span {
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.topmenu input {
+  height: 30px;
+  border: none;
+}
+
+.topmenu p {
+  font-size: 15px;
+  font-family: Nike, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+.search-container {
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.search-container:hover {
+  cursor: text;
+}
+
+.search-container span:hover {
+  cursor: pointer;
+}
+
+.Lebron17 {
+  position: relative;
+}
+
+.Lebron17 img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.Lebron17:hover {
+  cursor: pointer;
+}
+
+.Lebron17 .titletext p {
+  font-size: 60px;
+  font-family: Nike, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  margin-right: 80%;
+}
+
+.Lebron17 .descriptiontext p {
+  font-size: 17px;
+  position: absolute;
+  color: white;
+  top: 170px;
+  left: 40px;
+  margin-right: 70%;
+}
+
+.button {
+  width: 80px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.button:hover {
+  background-color: rgb(0, 0, 0, 0.01);
+  cursor: pointer;
+}
+
+.Lebron17 .button {
+  position: absolute;
+  top: 220px;
+  left: 40px;
+  margin-right: 60%;
+}
+
+.Lebron17 .button p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.Sectionlabel p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Winterworkoutessentials {
+  position: relative;
+}
+
+.Winterworkoutessentials:hover {
+  cursor: pointer;
+}
+
+.greyrectangle {
+  width: 100%;
+  height: 30px;
+  background-color: lightgrey;
+}
+
+.Winterworkoutessentials img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.Winterworkoutessentials .titletext p {
+  font-size: 30px;
+  font-family: Nike, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 400px;
+  left: 40px;
+  margin-right: 80%;
+}
+
+.Winterworkoutessentials .descriptiontext p {
+  font-size: 17px;
+  position: absolute;
+  color: white;
+  top: 480px;
+  left: 40px;
+  margin-right: 70%;
+}
+
+.Winterworkoutessentials .button {
+  position: absolute;
+  top: 510px;
+  left: 40px;
+  margin-right: 60%;
+}
+
+.Winterworkoutessentials .button p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.TripleBlack {
+  position: relative;
+}
+
+.Thisseasonsmusthaves img {
+  width: 100%;
+  margin-bottom: 30px;
+  margin-right: 15px;
+}
+
+.Thisseasonsmusthaves:hover {
+  cursor: pointer;
+}
+
+.TripleBlack .descriptiontext p {
+  font-size: 17px;
+  position: absolute;
+  color: white;
+  top: 450px;
+  left: 40px;
+  margin-right: 300px;
+}
+
+.TripleBlack .button {
+  position: absolute;
+  top: 475px;
+  left: 40px;
+}
+
+.TripleBlack .button p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.AirMax720 {
+  position: relative;
+}
+
+.AirMax720 .descriptiontext p {
+  font-size: 17px;
+  position: absolute;
+  color: black;
+  top: 430px;
+  left: 40px;
+  margin-right: 390px;
+}
+
+.AirMax720 .button {
+  position: absolute;
+  background-color: black;
+  top: 475px;
+  left: 40px;
+}
+
+.AirMax720 .button:hover {
+  background-color: rgb(0, 0, 0, 0.01);
+  cursor: pointer;
+}
+
+.AirMax720 .button p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 9px;
+  color: white;
+}
+
+.AirMax720 .button2 {
+  background-color: black;
+  width: 80px;
+  height: 35px;
+  border-radius: 20px;
+  position: absolute;
+  top: 475px;
+  left: 130px;
+}
+
+.button2:hover {
+  background-color: rgb(0, 0, 0, 0.01);
+  cursor: pointer;
+}
+
+.AirMax720 .button2 p {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.Fortruefans {
+  position: relative;
+}
+
+.Fortruefans:hover {
+  Cursor: pointer;
+}
+
+.Fortruefans .greyrectangle {
+  height: 15px;
+}
+
+.Fortruefans img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.Fortruefans .titletext p {
+  font-size: 30px;
+  font-family: Nike, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 350px;
+  left: 40px;
+  margin-right: 1200px;
+}
+
+.Fortruefans .descriptiontext p {
+  font-size: 17px;
+  position: absolute;
+  color: white;
+  top: 450px;
+  left: 40px;
+  margin-right: 300px;
+}
+
+.Fortruefans .button {
+  position: absolute;
+  top: 475px;
+  left: 40px;
+  margin-right: 60%;
+}
+
+.Fortruefans .button p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.Basketballsbest:hover {
+  cursor: pointer;
+}
+
+.Basketballsbest img {
+  width: 100%;
+  margin-bottom: 30px;
+  margin-right: 15px;
+}
+
+.AmberRise {
+  position: relative;
+}
+
+.AmberRise .descriptiontext p {
+  font-size: 17px;
+  position: absolute;
+  color: white;
+  top: 430px;
+  left: 40px;
+  margin-right: 300px;
+}
+
+.AmberRise .button {
+  position: absolute;
+  top: 475px;
+  left: 40px;
+}
+
+.AmberRise .button p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.Enlightenment {
+  position: relative;
+}
+
+.Enlightenment .descriptiontext p {
+  font-size: 17px;
+  position: absolute;
+  color: white;
+  top: 430px;
+  left: 40px;
+  margin-right: 350px;
+}
+
+.Enlightenment .button {
+  position: absolute;
+  top: 475px;
+  left: 40px;
+}
+
+.Enlightenment .button p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.Bigwinsatanyprice:hover {
+    cursor: pointer;
+}
+
+.Bigwinsatanyprice img {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+
+.Bigwinsatanyprice p {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.Icons p:first-child {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 15px;
+  margin-right: 50px;
+}
+
+.Icons p {
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 15px;
+  margin-right: 50px;
+}
+
+.Shoes p:first-child {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 15px;
+  margin-right: 50px;
+}
+
+.Shoes p {
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 15px;
+  margin-right: 50px;
+}
+
+.Clothing p:first-child {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 15px;
+  margin-right: 50px;
+}
+
+.Clothing p {
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 15px;
+  margin-right: 50px;
+}
+
+.Shoes p {
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 15px;
+  margin-right: 50px;
+}
+
+.Kids p:first-child {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.Kids p {
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 15px;
+}
+
+.Kids p:hover {
+  cursor: pointer;
+}
+
+.linkscontainer {
+  margin-left: 26%;
+  margin-right: 26%;
+  margin-bottom: 40px;
+}
+
+.bottomrectangle {
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  border-bottom: 0.5px solid lightgrey;;
+}
+
+.linkscontainer2 {
+  margin-left: 5%;
+}
+
+.linkscontainer2 p {
+  margin-right: 80px;
+}
+
+.leftlinks p {
+  font-size: 20px;
+  font-family: Nike, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.centerlinks p:first-child {
+  font-size: 20px;
+  font-family: Nike, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.centerlinks p {
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 15px;
+}
+
+.rightlinks p:first-child {
+  font-size: 20px;
+  font-family: Nike, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.rightlinks p {
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 15px;
+}
+.socialmedia {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  color: grey;
+}
+
+.socialmedia span {
+  margin-right: 15px;
+}
+
+.mostbottomrectangle {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+}
+
+.mostbottomrectanglelinks {
+  margin-left: 15px;
+}
+
+.mostbottomrectanglelinks p {
+  margin-top: 20px;
+  font-size: 12px;
+  color: grey;
+  margin-right: 20px;
+}
+
+.mostbottomrectanglelinks p:first-child {
+  color: white;
+}
+
+.mostbottomrectanglelinks p:nth-child(2) {
+  margin-right: 60%;
+}
