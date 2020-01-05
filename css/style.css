@@ -74,7 +74,7 @@ a {
 }
 
 .secondrectangle a {
-  font-size: 10px;
+  font-size: 14px;
   color: grey;
 }
 
@@ -91,16 +91,16 @@ a {
 }
 
 .thirdrectangle p {
-  font-size: 10px;
+  font-size: 14px;
   color: grey;
-  margin-right: 20px;
+  margin-right: 25px;
   margin-top: 10px;
   }
 
-.thirdrectangle span {
+.thirdrectangle a {
   color: grey;
   font-size: 14px;
-  margin-right: 30px;
+  margin-right: 25px;
   margin-top: 10px;
 }
 
@@ -456,7 +456,7 @@ a {
   margin-bottom: 100px;
 }
 
-.Icons p:first-child {
+.Icons p {
   font-size: 15px;
   font-weight: bold;
   color: black;
@@ -464,61 +464,60 @@ a {
   margin-right: 50px;
 }
 
-.Icons p {
+.Icons a p {
   font-size: 15px;
   color: grey;
   margin-bottom: 15px;
   margin-right: 50px;
-}
-
-.Shoes p:first-child {
-  font-size: 15px;
-  font-weight: bold;
-  color: black;
-  margin-bottom: 15px;
-  margin-right: 50px;
+  font-weight: normal;
 }
 
 .Shoes p {
+  color: black;
   font-size: 15px;
-  color: grey;
+  font-weight: bold;
   margin-bottom: 15px;
   margin-right: 50px;
 }
 
-.Clothing p:first-child {
+.Shoes a p {
   font-size: 15px;
-  font-weight: bold;
-  color: black;
+  color: grey;
   margin-bottom: 15px;
   margin-right: 50px;
+  font-weight: normal;
 }
 
 .Clothing p {
-  font-size: 15px;
-  color: grey;
-  margin-bottom: 15px;
-  margin-right: 50px;
-}
-
-.Shoes p {
-  font-size: 15px;
-  color: grey;
-  margin-bottom: 15px;
-  margin-right: 50px;
-}
-
-.Kids p:first-child {
+  color: black;
   font-size: 15px;
   font-weight: bold;
-  color: black;
   margin-bottom: 15px;
+  margin-right: 50px;
+}
+
+.Clothing a p {
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 15px;
+  margin-right: 50px;
+  font-weight: normal;
 }
 
 .Kids p {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-right: 50px;
+}
+
+.Kids a p {
   font-size: 15px;
   color: grey;
   margin-bottom: 15px;
+  margin-right: 50px;
+  font-weight: normal;
 }
 
 .linkscontainer {
